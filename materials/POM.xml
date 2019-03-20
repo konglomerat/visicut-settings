@@ -1,10 +1,9 @@
 <material>
-  <engraveColor>#000000</engraveColor>
+  <engraveColor>#fefefe</engraveColor>
   <cutColor>#ff0033</cutColor>
-  <color>#ffffff</color>
-  <name>Holz Kiefer</name>
+  <color>#868686</color>
+  <name>POM</name>
   <materialThicknesses>
     <float>3.0</float>
-    <float>4.0</float>
   </materialThicknesses>
 </material>
