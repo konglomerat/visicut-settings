@@ -1,27 +1,30 @@
 <visicutPreferences>
   <defaultMapping>schneide rot, graviere Rest, ignoriere blau, markiere gruen</defaultMapping>
-  <disableSandbox>false</disableSandbox>
+  <disableSandbox>true</disableSandbox>
   <useFilenamesForJobs>false</useFilenamesForJobs>
-  <labName>FAU FabLab</labName>
+  <labName>Konglomerat e.V.</labName>
   <enableQRCodes>false</enableQRCodes>
   <fastQRCodes>false</fastQRCodes>
   <fabqrActive>false</fabqrActive>
+  <autoUpdateSettingsDisabled>false</autoUpdateSettingsDisabled>
+  <lastAutoUpdateTime>1552244436564</lastAutoUpdateTime>
+  <lastAutoUpdateLabName></lastAutoUpdateLabName>
   <windowBounds>
-    <x>386</x>
-    <y>184</y>
-    <width>1145</width>
-    <height>834</height>
+    <x>391</x>
+    <y>35</y>
+    <width>1375</width>
+    <height>968</height>
   </windowBounds>
-  <useThicknessAsFocusOffset>true</useThicknessAsFocusOffset>
+  <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/tmp/ink_ext_XXXXXX.svg5RXEBZ.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svg5SZDBZ.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgENAKBZ.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgUNCEBZ.svg</string>
-    <string>/tmp/ink_ext_XXXXXX.svgLSIIBZ.svg</string>
+    <string>C:\Users\LASERSAUR\Desktop\visicut\examples\Basic\circle-20mm-red.svg</string>
+    <string>C:\Users\LASERSAUR\Desktop\PI_MOVIE_QUOTES_TYPO.svg</string>
+    <string>C:\Users\LASERSAUR\Desktop\PI_MOVIE_QUOTES_TYPO.eps</string>
+    <string>C:\Users\LASERSAUR\Desktop\PI_MOVIE_QUOTES_TYPO_2_finalProduction.pdf</string>
+    <string>C:\Users\LASERSAUR\Desktop\visicut\examples\bendable-material.svg</string>
   </recentFiles>
   <lastMaterial>Acryl</lastMaterial>
-  <lastLaserDevice>Epilog_Zing_Fablab</lastLaserDevice>
+  <lastLaserDevice>LaserSaur Dresden</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <laserCutterTags>lasercutter, lasercut, laser cutter, laser cut</laserCutterTags>
