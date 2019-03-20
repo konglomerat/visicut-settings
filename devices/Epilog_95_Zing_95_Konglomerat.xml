@@ -10,6 +10,7 @@ Please:
     <hostname>lasercutter.lab.fablab.uni-erlangen.de</hostname>
     <port>515</port>
     <autofocus>false</autofocus>
+    <hideSoftwareFocus>false</hideSoftwareFocus>
     <bedWidth>609.0</bedWidth>
     <bedHeight>308.0</bedHeight>
   </laserCutter>
@@ -61,5 +62,5 @@ Please:
   <projectorTiming>0</projectorTiming>
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
-  <name>Epilog_Zing_Fablab</name>
+  <name>Epilog_Zing_Konglomerat</name>
 </laserDevice>

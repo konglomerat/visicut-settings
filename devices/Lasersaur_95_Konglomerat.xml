@@ -1,0 +1,47 @@
+<laserDevice>
+  <originBottomLeft>true</originBottomLeft>
+  <jobSentText>Job was sent as &apos;$jobname&apos;
+Please:
+-Close the lid
+-Turn on the Ventilation
+-And press &apos;start&apos; on the Lasercutter $name</jobSentText>
+  <jobPrefix>SmoothieCut</jobPrefix>
+  <laserCutter class="com.t_oster.liblasercut.drivers.SmoothieBoard">
+    <lineend>CRLF</lineend>
+    <baudRate>115200</baudRate>
+    <flipXaxis>false</flipXaxis>
+    <flipYaxis>false</flipYaxis>
+    <httpUploadUrl>http://192.168.2.222/upload</httpUploadUrl>
+    <autoPlay>false</autoPlay>
+    <supportedResolutions>100,500,1000</supportedResolutions>
+    <waitForOKafterEachLine>true</waitForOKafterEachLine>
+    <preJobGcode>G21,G90,M3</preJobGcode>
+    <postJobGcode>G0 X0 Y0,M5</postJobGcode>
+    <serialTimeout>15000</serialTimeout>
+    <exportPath></exportPath>
+    <uploadMethod>HTTP</uploadMethod>
+    <identificationLine>Smoothie</identificationLine>
+    <initDelay>0</initDelay>
+    <host>192.168.2.222</host>
+    <comport></comport>
+    <max__speed>3000.0</max__speed>
+    <travel__speed>3000.0</travel__speed>
+    <blankLaserDuringRapids>false</blankLaserDuringRapids>
+    <useBidirectionalRastering>false</useBidirectionalRastering>
+    <spindleMax>1.0</spindleMax>
+    <currentPower>-1.0</currentPower>
+    <currentSpeed>-1.0</currentSpeed>
+    <nextPower>-1.0</nextPower>
+    <nextSpeed>-1.0</nextSpeed>
+    <currentFocus>0.0</currentFocus>
+    <bedWidth>1100.0</bedWidth>
+    <bedHeight>600.0</bedHeight>
+    <rasterPadding>5.0</rasterPadding>
+  </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
+  <description>Rosenwerk / Konglomerat / DIT Laserbau</description>
+  <name>Lasersaur_Konglomerat</name>
+</laserDevice>
